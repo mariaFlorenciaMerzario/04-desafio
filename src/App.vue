@@ -1,20 +1,22 @@
 
 <template>
-  <div id="app" class="m-4 w-75">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <Formulario/>
+  <div id="app" class="m-4">
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <split/>
   </div>
 </template>
  
 <script>
+import Split from './components/Split.vue'
 
- import Formulario from './components/Formulario'
 
 
 export default {
   name: 'App',
   components: {
-    Formulario,
+   Split
   }
 }
 </script>
+
+    
